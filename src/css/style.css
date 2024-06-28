@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 100vh;
+    font-family: "Creepster";
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px;
+    align-items: center;
+}
+
+.cabecalho-logo .imagemvenom{
+    width: 300px;
+    height: 170px;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-itens{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-transform:uppercase;
+}
+
+.navbar-itens li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.navbar-itens li a{
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar-itens li .botoes:hover{
+    color: hsl(0, 85%, 47%);
+    transition: 0.3s all;
+}
+
+/* SINOPSE DO FILME */
+
+.sinopse{
+    margin-left: 15px;
+}
+
+.titulo h1{
+    color: red;
+    line-height: 50px;
+}
+   
+.titulo p{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 11px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.titulo li{
+    list-style: none;
+}
+
+
+/* BOTÃO DA SINOPSE */
+
+.titulo .botao{
+    background-color: red;
+    color: #fff;
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    list-style: none;
+}
+
+
+
